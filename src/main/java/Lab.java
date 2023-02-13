@@ -14,6 +14,9 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
-
+        String[] languages = { "html", "css", "javascript", "java", "c++"};
+        // This throws ArrayIndexOutOfBoundException
+        String myString = languages[7];
+        System.out.println(myString);
     }
 }
